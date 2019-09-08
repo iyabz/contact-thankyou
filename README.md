@@ -34,12 +34,6 @@ if($_POST) {
      
     if(mail($recipient, $email_title, $visitor_message, $headers)) {
         echo "<p>Thank you for reaching out, $visitor_name. I'll get back to you shortly.</p>";
-         } else {
-        echo '<p>We are sorry but the email did not go through.</p>';
-    }
-     
-} else {
-    echo '<p>Something went wrong</p>';
-}
+ 
  
 ?>
