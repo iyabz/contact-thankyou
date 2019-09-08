@@ -34,5 +34,5 @@ if($_POST) {
      
     if(mail($recipient, $email_title, $visitor_message, $headers)) {
         echo "<p>Thank you for reaching out, $visitor_name. I'll get back to you shortly.</p>
-<?
+?>
 
