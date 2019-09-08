@@ -32,7 +32,7 @@ if($_POST) {
     .'From: ' . $visitor_email . "\r\n";
      
     if(mail($recipient, $email_title, $visitor_message, $headers)) {
-        echo "<p>Thank you for reaching out. I'll get back to you shortly.</p>";
+        echo "<p>Thank you for reaching out. I'll get back to you shortly.</p>
   
  
 ?>
